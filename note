@@ -206,3 +206,7 @@ addEventListener 안에 있는 함수는 직접 실행하지 않는다
 addEventListener의 함수에서 object에 대한 자리만 할당해주면
 해당 이벤트가 발생시킨 정보들에 대한 object들을 볼 수 있다!
 이때 해당 이벤트가 가진 기본 Default값을 발생시키지 않기 하게 위해선 preventDefault를 이용하여 막을 수 있다!
+
+//4.4
+ visibility:hidden은 공간은 그대로 두고 보이지만 않는건데 display:none은 잡아둔 공간도 사라진다
+ "Hello" + username === `Hello ${username}`
