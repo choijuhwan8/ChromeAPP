@@ -210,3 +210,18 @@ addEventListener의 함수에서 object에 대한 자리만 할당해주면
 //4.4
  visibility:hidden은 공간은 그대로 두고 보이지만 않는건데 display:none은 잡아둔 공간도 사라진다
  "Hello" + username === `Hello ${username}`
+
+ //4.5
+lcoalStorage 브라우저에 무언가를 저장한 후 나중에 가져 올 수 있음.
+lcoalStorage.setItem("username", "nico");
+lcoalStorage.getItem("username")
+lcoalStorage.removeItem("username")
+
+//4.6
+function getClock() {
+const date = new Date();
+const hours = String(date.getHours()).padStart(2, "0");
+const minutes = String(date.getMinutes()).padStart(2, "0");
+const seconds = String(date.getSeconds()).padStart(2, "0");
+clock.innerText =`${hours}:${minutes}:${seconds}`;
+}
