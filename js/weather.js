@@ -24,3 +24,4 @@ navigator.geolocation.getCurrentPosition(onGeoSuccess,onGeoError);
 
 // https://api.openweathermap.org/data/2.5/weather?lat=37.5230224
 // &lon=127.0407199&appid=38b44048070ff55b5fdb7feced90da67
+
